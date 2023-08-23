@@ -14,7 +14,7 @@ body {
 }
 
 .buttons button {
-    background: #333;
+    font-size: 1rem;
     color: #fff;
     border: 0;
     outline: 0;
@@ -23,6 +23,20 @@ body {
     margin: 5px;
     cursor: pointer;
 }
+
+.buttons button:first-child {
+    background: green;
+}
+
+.buttons button:nth-child(2) {
+    background: red;
+}
+
+.buttons button:last-child {
+    background: orange;
+}
+
+
 #toastBox {
     position: absolute;
     bottom: 30px;
